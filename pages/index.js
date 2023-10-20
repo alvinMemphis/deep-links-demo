@@ -6,8 +6,8 @@ import Link from "next/link";
 
 
 export default function Home() {
-const redirecttoNativeApp = (/*potential params */) => {
-    document.location = "mimbbo-staging://account";
+const redirecttoNativeApp = (path='') => {
+    document.location = "mimbbo-staging://"+path;
   };
  
   return (
@@ -23,7 +23,7 @@ const redirecttoNativeApp = (/*potential params */) => {
           Get started by editing <code>pages/index.js</code>
         </p>
  <div>
-      <button onClick={redirecttoNativeApp}>Click to go to mimbbo</button>
+      <button onClick={()=>redirecttoNativeApp('account')}>Click to go to mimbbo</button>
     </div>
       </main>
 
