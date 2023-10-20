@@ -23,7 +23,7 @@ const redirecttoNativeApp = (path='') => {
           Get started by editing <code>pages/index.js</code>
         </p>
  <div>
-      <button onClick={()=>redirecttoNativeApp('account')}>Click to go to mimbbo</button>
+      <button onClick={()=>redirecttoNativeApp('account')}>Click to account</button>
     </div>
       </main>
 
