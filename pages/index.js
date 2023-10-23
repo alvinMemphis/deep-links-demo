@@ -92,10 +92,11 @@ var badURL = path;
 
 var linker = new DeepLinker({
   onIgnored: function() {
-      router.push('/portfolio');
+      router.push('/'+path);
     console.log('browser failed to respond to the deep link');
   },
   onFallback: function() {
+ router.push('/'+path);
     console.log('dialog hidden or user returned to tab');
   },
   onReturn: function() {
