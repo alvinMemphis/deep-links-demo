@@ -26,7 +26,9 @@ const redirecttoNativeApp = (path='') => {
       <button onClick={()=>redirecttoNativeApp('account')}>Click to account</button>
     </div>
 <div>
-      <button onClick={()=>redirecttoNativeApp('account')}>Click to portfolio</button>
+      <button onClick={()=>redirecttoNativeApp(
+        'portfolio?mimbbossId=7b7fb73e-1c4c-4e74-b470-ff14f363ad90&pageId=a67dddd3b1fc445ab94554fcf05ef2b2')}>
+          Click to portfolio</button>
     </div>
       </main>
 
