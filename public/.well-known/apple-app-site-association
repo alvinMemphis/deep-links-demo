@@ -24,5 +24,15 @@
                 ]
             }
         ]
+    },
+    "activitycontinuation": {
+        "apps": [
+            "45RDM99R9X.com.dev.mimbbo.app"
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "45RDM99R9X.com.dev.mimbbo.app"
+        ]
     }
 }
