@@ -4,10 +4,10 @@
             "delegate_permission/common.handle_all_urls"
         ],
         "target": {
-            "namespace": "android_app",
+            "namespace": "com.dev.mimbbo.app",
             "package_name": "com.dev.mimbbo.app",
             "sha256_cert_fingerprints": [
-                "YOUR_APP_CERT_FINGERPRINT"
+                "75:6A:BA:E9:E0:5F:D0:7E:D4:D4:C9:1B:85:4D:35:2C:85:A3:36:10:F5:58:35:87:F5:C5:44:C5:BD:51:B5:31"
             ]
         }
     }
