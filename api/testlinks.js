@@ -8,7 +8,7 @@ export const deeplinks =[
 {   name:"appointments ",  url:"appointments" },
 {  name:"single appt", url:  "appointments/id" },
 { name:"profile",  url:  "profile/id" },
-{   name:"single page ", url: "page/id/" },
+{   name:"single page ", url: "page/85adeee87a7c44eeb0d17fc2705e8b6d" },
 {   name:"policies", url: "page/policies" },
 {  name:"pay", url:  "page/pay" },
 {  name:"availability", url:  "page/availability" },

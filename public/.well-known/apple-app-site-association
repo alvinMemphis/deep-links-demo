@@ -1,28 +1,35 @@
 {
+    "activitycontinuation": {
+        "apps": [
+            "45RDM99R9X.com.dev.mimbbo.app",
+            "45RDM99R9X.com.staging.mimbbo.app",
+            "45RDM99R9X.com.mimbbo.app"
+        ]
+    },
     "applinks": {
-        "apps": [],
         "details": [
             {
                 "appIDs": [
-                    "45RDM99R9X.com.dev.mimbbo.app"
+                    "45RDM99R9X.com.dev.mimbbo.app",
+                    "45RDM99R9X.com.staging.mimbbo.app",
+                    "45RDM99R9X.com.mimbbo.app"
                 ],
                 "components": [
                     {
-                        "*": "/",
-                        "comment": "register all paths for deep linking "
+                        "/": "/"
+                    },
+                    {
+                        "/": "*"
                     }
                 ]
             }
         ]
     },
-    "activitycontinuation": {
-        "apps": [
-            "45RDM99R9X.com.dev.mimbbo.app"
-        ]
-    },
     "webcredentials": {
         "apps": [
-            "45RDM99R9X.com.dev.mimbbo.app"
+            "45RDM99R9X.com.dev.mimbbo.app",
+            "45RDM99R9X.com.staging.mimbbo.app",
+            "45RDM99R9X.com.mimbbo.app"
         ]
     }
 }
