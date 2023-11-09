@@ -3,6 +3,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import { useRouter } from 'next/router';
 import { deeplinks } from 'api/testlinks';
+import Link from 'next/link';
 
 
 
@@ -28,16 +29,19 @@ const redirecttoNativeApp =async (e,path='') => {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Testing staging universal links </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
+        <Header title="Welcome  to test links at mimbbos.me" />
+        <p className={'description'}>
+ <button style={{height:'30px',width:'120px',margin:'10px'}} onClick={(e)=>router.push('/account')}>
+      click for  production links
+         </button>
+</p>
+  <a>
+      </a>
 <div>
     </div>
     {deeplinks.map(l=>(
