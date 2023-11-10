@@ -6,7 +6,7 @@ export const deeplinks =[
 {name:" single showcase",  url:    "showcase/0bea53785f0e499a86cd3c069de42680" },
 {name:"portfolio",  url:   "p/7b7fb73e-1c4c-4e74-b470-ff14f363ad90?pageId=a67dddd3b1fc445ab94554fcf05ef2b2" },
 { name:"notifications",  url:  "notifications?tab=personal" },
-{ name:"notfications with tabs", url:   "notifications?tab=business" },
+{ name:"notfications with tabs", url:   "notifications?tab=mimbboss" },
 {   name:"appointments ",  url:"appointments" },
 {  name:"single appt", url:  "appointments/0223ddf2615a43c0869ce4f46f43c924" },
 { name:"profile",  url:  "profile/7b7fb73e-1c4c-4e74-b470-ff14f363ad90" },
