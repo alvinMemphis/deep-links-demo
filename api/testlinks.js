@@ -15,4 +15,6 @@ export const deeplinks =[
 {  name:"pay", url:  "page/pay" },
 {  name:"availability", url:  "availability" },
 {  name:"backstage", url:  "backstage" }
+{  name:"login", url:  "login" }
+{  name:"signup", url:  "signup" }
 ]
