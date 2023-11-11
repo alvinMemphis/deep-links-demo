@@ -7,7 +7,7 @@ export const deeplinks =[
 {name:"portfolio",  url:   "p/7b7fb73e-1c4c-4e74-b470-ff14f363ad90?pageId=a67dddd3b1fc445ab94554fcf05ef2b2" },
 {name:"portfolio booking site",  url:   "p/roland" },
 { name:"notifications",  url:  "notifications?tab=personal" },
-{ name:"notfications with tabs", url:   "notifications?tab=mimbboss" },
+{ name:"notfications with mimbboss", url:   "notifications?tab=mimboss" },
 {   name:"appointments ",  url:"appointments" },
 {  name:"single appt", url:  "appointments/0223ddf2615a43c0869ce4f46f43c924" },
 { name:"profile",  url:  "profile/7b7fb73e-1c4c-4e74-b470-ff14f363ad90" },
