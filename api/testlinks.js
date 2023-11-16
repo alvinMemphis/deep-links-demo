@@ -20,7 +20,7 @@ export const deeplinks =[
   {name: 'backstage',url:"backstage"},
       {name: 'servicemenulist',url:"backstage/servicemenuList"},
       {name: 'addons',url:"backstage/addson"},
-      {name: 'payment',url:"backstage/payment?page&paymentAccount&missingFields"},
+      {name: 'mimbbo pay',url:"backstage/payment?page&paymentAccount&missingFields"},
       {name: 'policies',url:"backstage/policies"},
       {name: 'availabilitywelcome',url:"backstage/availabilityWelcome"},
       {name: 'mimbboclasslist',url:"backstage/mimbboclasslist"},
